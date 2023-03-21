@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #E5D1FA;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+
+main section {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 60vh;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    border: 2px solid rgba(160, 35, 108, 0.644);
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.content .film,
+.content .duration {
+    display: flex;
+    flex-direction: column;
+}
+
+.content input {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 3.2rem;
+    font-size: 1.6rem;
+}
+
+.content button {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 3.2rem;
+    font-size: 1.6rem;
+    background-color: #FFF4D2;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: #ECF2FF;
+}
+
+.caixa {
+    width: 300px;
+    height: 300px;
+    background-color: #ECF2FF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
